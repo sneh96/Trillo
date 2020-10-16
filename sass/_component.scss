@@ -513,6 +513,10 @@
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 2.5rem;
+
+    @media only screen and (max-width: $bp-medium) {
+      font-size: 1.5rem;
+    }
   }
 }
 

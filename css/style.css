@@ -465,6 +465,9 @@ body {
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 2.5rem; }
+    @media only screen and (max-width: 56.25em) {
+      .cta__book-now {
+        font-size: 1.5rem; } }
 
 .btn {
   font-size: 1.5rem;
